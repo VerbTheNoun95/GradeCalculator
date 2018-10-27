@@ -1,0 +1,6 @@
+Grade Calculator:
+A simple form that allows the user to select the course for which to calculate the grade,
+the ability to input grades on assignments, and save the resulting calculation to txt;
+
+Needs a list of courses to choose from, grading rubrik from each course,
+weights for averages from each course, 
