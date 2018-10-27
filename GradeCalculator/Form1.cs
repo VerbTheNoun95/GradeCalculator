@@ -16,5 +16,10 @@ namespace GradeCalculator
         {
             InitializeComponent();
         }
+
+        private void CalculateButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

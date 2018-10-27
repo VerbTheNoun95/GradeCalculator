@@ -3,4 +3,9 @@ A simple form that allows the user to select the course for which to calculate t
 the ability to input grades on assignments, and save the resulting calculation to txt;
 
 Needs a list of courses to choose from, grading rubrik from each course,
-weights for averages from each course, 
+weights for averages from each course;
+
+Interface - pull down list for courses, text box to enter grades or pull down list 
+for grades (depends on how easy it is to get int out of text box), label to
+display course name with letter grade and average, button to open save file
+dialog;

@@ -7,3 +7,12 @@ C:\Users\abart\Source\Workspaces\Workspace\GradeCalculator\GradeCalculator\obj\D
 C:\Users\abart\Source\Workspaces\Workspace\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csproj.CoreCompileInputs.cache
 C:\Users\abart\Source\Workspaces\Workspace\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.exe
 C:\Users\abart\Source\Workspaces\Workspace\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.pdb
+F:\Programming\repo\GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.exe.config
+F:\Programming\repo\GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.exe
+F:\Programming\repo\GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.pdb
+F:\Programming\repo\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csprojResolveAssemblyReference.cache
+F:\Programming\repo\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.Form1.resources
+F:\Programming\repo\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.Properties.Resources.resources
+F:\Programming\repo\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csproj.GenerateResource.Cache
+F:\Programming\repo\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.exe
+F:\Programming\repo\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.pdb
