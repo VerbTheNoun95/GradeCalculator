@@ -51,12 +51,25 @@
             this.CoursePrompt = new System.Windows.Forms.Label();
             this.AssignmentPrompt = new System.Windows.Forms.Label();
             this.GradePrompt = new System.Windows.Forms.Label();
+            this.TotalPoints_label = new System.Windows.Forms.Label();
+            this.Assignment0_Total = new System.Windows.Forms.TextBox();
+            this.Assignment1_Total = new System.Windows.Forms.TextBox();
+            this.Assignment2_Total = new System.Windows.Forms.TextBox();
+            this.Assignment3_Total = new System.Windows.Forms.TextBox();
+            this.Assignment4_Total = new System.Windows.Forms.TextBox();
+            this.Assignment5_Total = new System.Windows.Forms.TextBox();
+            this.Assignment6_Total = new System.Windows.Forms.TextBox();
+            this.Assignment7_Total = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.LetterGradeBox)).BeginInit();
             this.SuspendLayout();
             // 
             // CourseSelection
             // 
             this.CourseSelection.FormattingEnabled = true;
+            this.CourseSelection.Items.AddRange(new object[] {
+            "PSY513",
+            "STA502",
+            "STA503"});
             this.CourseSelection.Location = new System.Drawing.Point(188, 66);
             this.CourseSelection.Name = "CourseSelection";
             this.CourseSelection.Size = new System.Drawing.Size(563, 28);
@@ -73,6 +86,12 @@
             // Assignment0_Type
             // 
             this.Assignment0_Type.FormattingEnabled = true;
+            this.Assignment0_Type.Items.AddRange(new object[] {
+            "Homework",
+            "Quiz",
+            "Exam",
+            "Midterm",
+            "Final"});
             this.Assignment0_Type.Location = new System.Drawing.Point(61, 170);
             this.Assignment0_Type.Name = "Assignment0_Type";
             this.Assignment0_Type.Size = new System.Drawing.Size(150, 28);
@@ -81,6 +100,12 @@
             // Assignment1_Type
             // 
             this.Assignment1_Type.FormattingEnabled = true;
+            this.Assignment1_Type.Items.AddRange(new object[] {
+            "Homework",
+            "Quiz",
+            "Exam",
+            "Midterm",
+            "Final"});
             this.Assignment1_Type.Location = new System.Drawing.Point(61, 229);
             this.Assignment1_Type.Name = "Assignment1_Type";
             this.Assignment1_Type.Size = new System.Drawing.Size(150, 28);
@@ -89,6 +114,12 @@
             // Assignment2_Type
             // 
             this.Assignment2_Type.FormattingEnabled = true;
+            this.Assignment2_Type.Items.AddRange(new object[] {
+            "Homework",
+            "Quiz",
+            "Exam",
+            "Midterm",
+            "Final"});
             this.Assignment2_Type.Location = new System.Drawing.Point(61, 288);
             this.Assignment2_Type.Name = "Assignment2_Type";
             this.Assignment2_Type.Size = new System.Drawing.Size(150, 28);
@@ -97,6 +128,12 @@
             // Assignment3_Type
             // 
             this.Assignment3_Type.FormattingEnabled = true;
+            this.Assignment3_Type.Items.AddRange(new object[] {
+            "Homework",
+            "Quiz",
+            "Exam",
+            "Midterm",
+            "Final"});
             this.Assignment3_Type.Location = new System.Drawing.Point(61, 347);
             this.Assignment3_Type.Name = "Assignment3_Type";
             this.Assignment3_Type.Size = new System.Drawing.Size(150, 28);
@@ -105,6 +142,12 @@
             // Assignment4_Type
             // 
             this.Assignment4_Type.FormattingEnabled = true;
+            this.Assignment4_Type.Items.AddRange(new object[] {
+            "Homework",
+            "Quiz",
+            "Exam",
+            "Midterm",
+            "Final"});
             this.Assignment4_Type.Location = new System.Drawing.Point(61, 406);
             this.Assignment4_Type.Name = "Assignment4_Type";
             this.Assignment4_Type.Size = new System.Drawing.Size(150, 28);
@@ -113,6 +156,12 @@
             // Assignment5_Type
             // 
             this.Assignment5_Type.FormattingEnabled = true;
+            this.Assignment5_Type.Items.AddRange(new object[] {
+            "Homework",
+            "Quiz",
+            "Exam",
+            "Midterm",
+            "Final"});
             this.Assignment5_Type.Location = new System.Drawing.Point(61, 465);
             this.Assignment5_Type.Name = "Assignment5_Type";
             this.Assignment5_Type.Size = new System.Drawing.Size(150, 28);
@@ -121,6 +170,12 @@
             // Assignment6_Type
             // 
             this.Assignment6_Type.FormattingEnabled = true;
+            this.Assignment6_Type.Items.AddRange(new object[] {
+            "Homework",
+            "Quiz",
+            "Exam",
+            "Midterm",
+            "Final"});
             this.Assignment6_Type.Location = new System.Drawing.Point(61, 524);
             this.Assignment6_Type.Name = "Assignment6_Type";
             this.Assignment6_Type.Size = new System.Drawing.Size(150, 28);
@@ -129,6 +184,12 @@
             // Assignment7_Type
             // 
             this.Assignment7_Type.FormattingEnabled = true;
+            this.Assignment7_Type.Items.AddRange(new object[] {
+            "Homework",
+            "Quiz",
+            "Exam",
+            "Midterm",
+            "Final"});
             this.Assignment7_Type.Location = new System.Drawing.Point(61, 583);
             this.Assignment7_Type.Name = "Assignment7_Type";
             this.Assignment7_Type.Size = new System.Drawing.Size(150, 28);
@@ -228,11 +289,85 @@
             this.GradePrompt.TabIndex = 21;
             this.GradePrompt.Text = "Points Earned:";
             // 
+            // TotalPoints_label
+            // 
+            this.TotalPoints_label.AutoSize = true;
+            this.TotalPoints_label.Location = new System.Drawing.Point(329, 135);
+            this.TotalPoints_label.Name = "TotalPoints_label";
+            this.TotalPoints_label.Size = new System.Drawing.Size(96, 20);
+            this.TotalPoints_label.TabIndex = 22;
+            this.TotalPoints_label.Text = "Points Total:";
+            // 
+            // Assignment0_Total
+            // 
+            this.Assignment0_Total.Location = new System.Drawing.Point(327, 170);
+            this.Assignment0_Total.Name = "Assignment0_Total";
+            this.Assignment0_Total.Size = new System.Drawing.Size(100, 26);
+            this.Assignment0_Total.TabIndex = 23;
+            // 
+            // Assignment1_Total
+            // 
+            this.Assignment1_Total.Location = new System.Drawing.Point(327, 229);
+            this.Assignment1_Total.Name = "Assignment1_Total";
+            this.Assignment1_Total.Size = new System.Drawing.Size(100, 26);
+            this.Assignment1_Total.TabIndex = 24;
+            // 
+            // Assignment2_Total
+            // 
+            this.Assignment2_Total.Location = new System.Drawing.Point(327, 288);
+            this.Assignment2_Total.Name = "Assignment2_Total";
+            this.Assignment2_Total.Size = new System.Drawing.Size(100, 26);
+            this.Assignment2_Total.TabIndex = 25;
+            // 
+            // Assignment3_Total
+            // 
+            this.Assignment3_Total.Location = new System.Drawing.Point(327, 347);
+            this.Assignment3_Total.Name = "Assignment3_Total";
+            this.Assignment3_Total.Size = new System.Drawing.Size(100, 26);
+            this.Assignment3_Total.TabIndex = 26;
+            // 
+            // Assignment4_Total
+            // 
+            this.Assignment4_Total.Location = new System.Drawing.Point(327, 406);
+            this.Assignment4_Total.Name = "Assignment4_Total";
+            this.Assignment4_Total.Size = new System.Drawing.Size(100, 26);
+            this.Assignment4_Total.TabIndex = 27;
+            // 
+            // Assignment5_Total
+            // 
+            this.Assignment5_Total.Location = new System.Drawing.Point(327, 465);
+            this.Assignment5_Total.Name = "Assignment5_Total";
+            this.Assignment5_Total.Size = new System.Drawing.Size(100, 26);
+            this.Assignment5_Total.TabIndex = 28;
+            // 
+            // Assignment6_Total
+            // 
+            this.Assignment6_Total.Location = new System.Drawing.Point(327, 524);
+            this.Assignment6_Total.Name = "Assignment6_Total";
+            this.Assignment6_Total.Size = new System.Drawing.Size(100, 26);
+            this.Assignment6_Total.TabIndex = 29;
+            // 
+            // Assignment7_Total
+            // 
+            this.Assignment7_Total.Location = new System.Drawing.Point(327, 583);
+            this.Assignment7_Total.Name = "Assignment7_Total";
+            this.Assignment7_Total.Size = new System.Drawing.Size(100, 26);
+            this.Assignment7_Total.TabIndex = 30;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(938, 704);
+            this.Controls.Add(this.Assignment7_Total);
+            this.Controls.Add(this.Assignment6_Total);
+            this.Controls.Add(this.Assignment5_Total);
+            this.Controls.Add(this.Assignment4_Total);
+            this.Controls.Add(this.Assignment3_Total);
+            this.Controls.Add(this.Assignment2_Total);
+            this.Controls.Add(this.Assignment1_Total);
+            this.Controls.Add(this.TotalPoints_label);
+            this.Controls.Add(this.Assignment0_Total);
             this.Controls.Add(this.GradePrompt);
             this.Controls.Add(this.AssignmentPrompt);
             this.Controls.Add(this.CoursePrompt);
@@ -288,6 +423,15 @@
         private System.Windows.Forms.Label CoursePrompt;
         private System.Windows.Forms.Label AssignmentPrompt;
         private System.Windows.Forms.Label GradePrompt;
+        private System.Windows.Forms.Label TotalPoints_label;
+        private System.Windows.Forms.TextBox Assignment0_Total;
+        private System.Windows.Forms.TextBox Assignment1_Total;
+        private System.Windows.Forms.TextBox Assignment2_Total;
+        private System.Windows.Forms.TextBox Assignment3_Total;
+        private System.Windows.Forms.TextBox Assignment4_Total;
+        private System.Windows.Forms.TextBox Assignment5_Total;
+        private System.Windows.Forms.TextBox Assignment6_Total;
+        private System.Windows.Forms.TextBox Assignment7_Total;
     }
 }
 
